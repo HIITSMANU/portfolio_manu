@@ -1,0 +1,27 @@
+.user-img{
+    height: 150px;
+    width: 150px;
+    margin-top: -90px;
+    border-radius: 50%;
+    border: 5px solid #30305a;
+}
+
+.bg-black{
+    background-color: rgb(2, 2, 28) !important;
+}
+ 
+.intro-card{
+    margin-top: 100px;
+}
+
+.skill-img{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+
+.tools img{
+    height: 40px;
+    width: 40px;
+    margin: 8px;
+}
