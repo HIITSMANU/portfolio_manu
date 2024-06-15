@@ -9,22 +9,82 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body class="bg-black text-white">
-    <div class="d-flex justify-content-end align-items-center p-3">
-        <div class="form-check form-switch">
-            <label class="form-check-label" for="flexSwitchCheckChecked"><i class="bi bi-moon"></i></label>
-            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" onchange="toggleTheme()" checked>
-            <label class="form-check-label" for="flexSwitchCheckChecked"></label>
-          </div>
-        <a href="#contact" class="btn btn-warning rounded-pill mx-3">Hire Me</a>
-    </div>
-        <div class="container my-5">
-            <div class="card content bg-dark text-white intro-card">
-                <div class="card-body text-center">
-                    <img src="./images/RAJ_5470 (1).jpg" alt="" class="user-img">
-                    <h1>S.Manohar</h1>
-                    <p class="lead fw-semibold">Freshers, B.Tech CSE</p>
-                    <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, molestias expedita quis quos dignissimos inventore? Itaque nulla tempore temporibus libero aliquam! Facilis, possimus amet delectus ducimus exercitationem nemo dolorem voluptates maxime, corporis veniam aspernatur aut veritatis ad aperiam excepturi corrupti, illum ipsa ea accusamus eius saepe? Accusamus autem nisi blanditiis!</p>
-                    <a href="" class="btn btn-light rounded-pill mt-3">Download Resume <i class="bi bi-arrow-right"></i></a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light fixed-top" id="mainNav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Manohar.info</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutme">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skill">Skill</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#project">Project</a>
+            </li>
+            <li class="nav-item">
+                <label class="form-check-label" for="flexSwitchCheckChecked"><i class="bi bi-moon"></i></label>
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" onchange="toggleTheme()" checked>
+                    <label class="form-check-label" for="flexSwitchCheckChecked"></label>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+        <div class="container_1 my-5 ">
+            <div class="row black" id="themeRow">
+                <div class="col-md-4" style="height: 500px;">
+                    <img id="themeImage" src="./images/RAJ_5470-Photoroom.png" width="103%" height="500px" alt="">
+                </div>
+                <div class="col-md-8">
+                    <div class="right" style="margin-left: 30%; margin-top: 10%;">
+                        <button style="padding: 10px; border-radius: 10px;">Hello There</button>
+                        <br>
+                        <h1>I AM S.MANOHAR</h1>
+                        <h2 class="animated-text">A FRONTEND DEVELOPER</h2>
+                        <button style="padding: 10px; border-radius: 10px;">
+                            <a style="text-decoration: none; color: black;" href="./images/S_Manohar_Resume.pdf" download>Download Resume</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="about my-5" data-aos="fade-up">
+                <h1 style="text-align: center;">ABOUT ME</h1>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <img src="./images/WhatsApp Image 2024-06-15 at 23.56.15_db6f85fd.jpg" class="img-fluid my-image" id="second-image" alt="Surajit Das">
+                      </div>
+                      <div class="col-md-8">
+                        <p><i class="fas fa-user"></i>S.MANOHAR</p>
+                        <p><i class="fas fa-user-tie"></i>Web Developer</p>
+                        <p><i class="fas fa-at"></i>manoharss0407@gmail.com</p>
+                        <p><i class="fab fa-linkedin"></i> </i> <a href="https://www.linkedin.com/in/sreedharam-manohar-9bb893234/"
+                            target="_blank">manohar_linkedin</a></p>
+                        <p><i class="fab fa-github"></i> <a href="https://github.com/HIITSMANU"
+                            target="_blank">manohar_github</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <h3 class="h3 heading">About Me</h3>
+                    <p class="lead mt-2 about-me">
+                        Dynamic and passionate full-stack developer . I bring a unique perspective to the development process. Highly enthusiastic about learning new technologies and committed to creating seamless, user-friendly applications. Specializing in frontend development with a mere foundation in backend technologies, I am dedicated to contributing to team success through innovation, attention to detail, and exceptional organizational skills. Motivated to grow and excel in the ever-evolving tech landscape.
+                    </p>
+                  </div>
                 </div>
             </div>
 
@@ -32,12 +92,13 @@
                 <div class="card-body p-5">
                     <div class="text-center mb-3">
                         <h1>Academic Records</h1>
-                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio fugit iusto quae corrupti. Vel ab, nemo voluptate ea consectetur repellat animi quo.</p>
+                        <p class="lead">A comprehensive overview of my educational background, showcasing my dedication to learning and academic excellence.</p>
                     </div>
+                    
                     <div class="table-responsive">
                         <table class="table table-bordered border-white table-dark" id="acaTable">
                             <thead>
-                                <tr>
+                                <tr >
                                     <th class="text-center">Qualification</th>
                                     <th class="text-center">Board/University</th>
                                     <th class="text-center">Year</th>
@@ -46,20 +107,20 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>B.Tech</td>
-                                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, dolores.</td>
+                                    <td>B.TECH</td>
+                                    <td>Silicon University, Bhubaneshwar , Odisha</td>
                                     <td>2025</td>
                                     <td>9.2</td>
                                 </tr>
                                 <tr>
-                                    <td>H.S.</td>
-                                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, dolores.</td>
+                                    <td>INTERMEDIATE</td>
+                                    <td>Tirumala High School , Vishakapatnam , AndhraPradesh</td>
                                     <td>2021</td>
                                     <td>96%</td>
                                 </tr>
                                 <tr>
-                                    <td>S.T.</td>
-                                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, dolores.</td>
+                                    <td>MATRICULATION</td>
+                                    <td>St Mary's School , Jajpur Road , Odisha </td>
                                     <td>2019</td>
                                     <td>80%</td>
                                 </tr>
@@ -74,21 +135,34 @@
                 <div class="card-body p-5">
                     <div class="text-center mb-3">
                         <h1>My Skills</h1>
-                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio fugit iusto quae corrupti. Vel ab, nemo voluptate ea consectetur repellat animi quo.</p>
+                        <p class="lead">With a strong foundation in both frontend and backend development, I possess a diverse skill set that enables me to tackle various challenges in the tech industry. My expertise includes proficiency in modern programming languages, frameworks, and tools, ensuring the delivery of high-quality and efficient solutions.</p>
                     </div>
-                    <div class="text-center">
-                        <img src="./images/skills/bootstrap.png" alt="" class="skill-img">
-                        <img src="./images/skills/c.png" alt="" class="skill-img">
-                        <img src="./images/skills/css.png" alt=""    class="skill-img">
-                        <img src="./images/skills/django.png" alt="" class="skill-img">
-                        <img src="./images/skills/html.png" alt="" class="skill-img">
-                        <img src="./images/skills/java.png" alt="" class="skill-img">
-                        <img src="./images/skills/js.png" alt="" class="skill-img">
-                        <img src="./images/skills/mongo.png" alt="" class="skill-img">
-                        <img src="./images/skills/mysql.png" alt="" class="skill-img">
-                        <img src="./images/skills/node.png" alt="" class="skill-img">
-                        <img src="./images/skills/python.png" alt="" class="skill-img">
-                        <img src="./images/skills/react.png" alt="" class="skill-img">
+                    
+                    <div class="text-center skills-card">
+                        <div class="frontend ski">
+                            <h4>Frontend Web Technologies:</h4>
+                            <img src="./images/skills/html.png" alt="" class="skill-img">
+                            <img src="./images/skills/css.png" alt=""    class="skill-img">
+                            <img src="./images/skills/react.png" alt="" class="skill-img">
+                            <img src="./images/skills/js.png" alt="" class="skill-img">
+                            <img src="./images/skills/bootstrap.png" alt="" class="skill-img">
+                        </div>
+                        <div class="backend ski">
+                            <h4>Backend Web Technologies:</h4>
+                            <img src="./images/skills/django.png" alt="" class="skill-img">
+                            <img src="./images/skills/node.png" alt="" class="skill-img">
+                        </div>
+                        <div class="database ski">
+                            <h4>Databases:</h4>
+                            <img src="./images/skills/mongo.png" alt="" class="skill-img">
+                            <img src="./images/skills/mysql.png" alt="" class="skill-img">
+                        </div>
+                        <div class="program ski">
+                            <h4>Programming Languages:</h4>
+                            <img src="./images/skills/c.png" alt="" class="skill-img">
+                            <img src="./images/skills/java.png" alt="" class="skill-img">
+                            <img src="./images/skills/python.png" alt="" class="skill-img">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -101,7 +175,12 @@
                     </div>
                     <div class="row g-4">
                         <div class="col-md-4">
-                            <img src="./images/project-1.PNG" alt="" class="img-fluid h-100">
+                            <div class="img-overlay-container">
+                                <img src="./images/project-1.PNG" alt="" class="img-fluid h-100">
+                                <div class="overlay">
+                                    <div class="overlay-text">Overlay Text</div>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-md-8">
                             <h3>GoHost Landing Page</h3>
@@ -121,7 +200,12 @@
                 <div class="card-body p-5">
                     <div class="row g-4">
                         <div class="col-md-4">
-                            <img src="./images/Screenshot_14-6-2024_142043_127.0.0.1.jpeg" alt="" class="img-fluid h-100">
+                            <div class="img-overlay-container">
+                                <img src="./images/Screenshot_14-6-2024_142043_127.0.0.1.jpeg" alt="" class="img-fluid h-100">
+                                <div class="overlay">
+                                    <div class="overlay-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, assumenda!</div>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-md-8">
                             <h3>GoHost Landing Page</h3>

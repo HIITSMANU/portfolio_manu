@@ -15,13 +15,121 @@
 }
 
 .skill-img{
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
     margin: 10px;
 }
 
+.skills-card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    color: black;
+}
+
+.ski{
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 2px solid black;
+}
 .tools img{
     height: 40px;
     width: 40px;
     margin: 8px;
+}
+
+.container_1{
+    padding: 40px;
+}
+
+
+.img-overlay-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.about{
+    border:2px solid rgb(168, 166, 166);
+    /* margin: 20px; */
+    padding: 20px;
+    border-radius: 9px;
+}
+
+.img-overlay-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black background */
+}
+
+.img-overlay-container:hover .overlay {
+    opacity: 1;
+}
+
+.overlay-text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.contents{
+    display: flex;
+    border: 2px solid red;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nav-contents{
+    display: flex;
+        
+}
+
+
+
+
+.black{
+    background-color: black;
+    width: 100% !important;
+}
+.white{
+    color: black;
+    background-color: #fff;
+}
+
+.animated-text {
+    animation: comeAndGo 3s infinite;
+}
+
+@keyframes comeAndGo {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
 }
