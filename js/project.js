@@ -65,7 +65,7 @@ document.getElementById("projects").innerHTML = project_html;
 
 function card(project){
     let cards = `<div class="col-lg-4">
-    <div class="card mb-3">
+    <div class="card mb-3" style="height:100%">
       <div class="product_image">
         <img class="img-fluid" src="${project.img_url}" alt="${project.title}">
       </div>
