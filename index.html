@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MANOHAR</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
@@ -37,8 +38,8 @@
             <li class="nav-item">
               <a class="nav-link" href="#project" >Project</a>
             </li>
-            <li class="nav-item">
-                <label class="form-check-label" for="flexSwitchCheckChecked"><i class="bi bi-moon"></i></label>
+            <li class="nav-item" style="margin-top: 8px; margin-left: 5px;">
+                <label class="form-check-label" for="flexSwitchCheckChecked"><i class="bi bi-moon"></i>Theme</label>
                     <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" onchange="toggleTheme()" checked>
                     <label class="form-check-label" for="flexSwitchCheckChecked"></label>
               </li>
@@ -49,14 +50,17 @@
         <div class="container_1 my-5 ">
             <div class="row black" id="themeRow">
                 <div class="col-md-4" style="height: 500px;">
-                    <img id="themeImage" src="./images/RAJ_5470-Photoroom.png" width="103%" height="500px" alt="">
+                    <img id="themeImage" src="./images/RAJ_5470-Photoroom.png" width="103%" height="650px" alt="">
                 </div>
-                <div class="col-md-6 d-flex text-center justify-content-center align-items-center">
+                <div class="col-md-6 d-flex justify-content-center ">
                     <div class="right" style="margin-left: 30%; margin-top: 10%;">
                         <button style="padding: 10px; border-radius: 10px;">Hello There <img src="./images/hand.svg" alt=""></button>
                         <br>
+                        <br>
                         <h1>I AM S.MANOHAR</h1>
+                        <br>
                         <h2 class="animated-text">A FRONTEND DEVELOPER</h2>
+                        <br>
                         <button style="padding: 10px; border-radius: 10px;">
                             <a style="text-decoration: none; color: black;" href="./images/S_Manohar_Resume.pdf" download><i class="fa-solid fa-download"></i> Download Resume</a>
                         </button>
@@ -68,10 +72,10 @@
             <br>
             <br>
             
-            <div class="about my-5" id="about_me">
+            <div class="about my-5" id="about_me" data-aos="slide-up" >
                 <br>
                 <br>
-                <h1  style="text-align: center;">About Me</h1>
+                <h1  style="text-align: center;" data-aos="fade-left">About Me</h1>
                 <div class="row">
                   <div class="col-md-6">
                     <div class="row">
@@ -82,30 +86,30 @@
                         <p><i class="fas fa-user"></i> S.MANOHAR</p>
                         <p><i class="fas fa-user-tie"></i> Web Developer</p>
                         <p><i class="fas fa-at"></i> manoharss0407@gmail.com</p>
-                        <p><i class="fab fa-linkedin"></i> </i> <a href="https://www.linkedin.com/in/sreedharam-manohar-9bb893234/"
+                        <p><i class="fab fa-linkedin"></i> </i> <a style="text-decoration: none; color: #fff;" href="https://www.linkedin.com/in/sreedharam-manohar-9bb893234/"
                             target="_blank"> manohar_linkedin</a></p>
-                        <p><i class="fab fa-github"></i> <a href="https://github.com/HIITSMANU"
+                        <p><i class="fab fa-github"></i> <a style="text-decoration: none; color: #fff;" href="https://github.com/HIITSMANU"
                             target="_blank"> manohar_github</a></p>
                       </div>
                     </div>
                   </div>
                   <div class="col-md-6">
-                    <h3 class="h3 heading">Introduction:</h3>
-                    <p class="lead mt-2 about-me">
+                    <h3 class="h3 heading" data-aos="zoom-in">Introduction:</h3>
+                    <p class="lead mt-2 about-me" data-aos="zoom-in">
                         Dynamic and passionate full-stack developer . I bring a unique perspective to the development process. Highly enthusiastic about learning new technologies and committed to creating seamless, user-friendly applications. Specializing in frontend development with a mere foundation in backend technologies, I am dedicated to contributing to team success through innovation, attention to detail, and exceptional organizational skills. Motivated to grow and excel in the ever-evolving tech landscape.
                     </p>
                   </div>
                 </div>
             </div>
 
-            <div class="card bg-dark text-white content aca-card my-5" id="academics">
-                <div class="card-body p-5">
+            <div class="card bg-dark text-white content aca-card my-5" id="academics" >
+                <div class="card-body p-5" >
                     <div class="text-center mb-3">
                         <h1>Academic Records</h1>
                         <p class="lead">A comprehensive overview of my educational background, showcasing my dedication to learning and academic excellence.</p>
                     </div>
                     
-                    <div class="table-responsive">
+                    <div class="table-responsive" data-aos="slide-up">
                         <table class="table table-bordered border-white table-dark" id="acaTable">
                             <thead>
                                 <tr >
@@ -149,7 +153,7 @@
                     </div>
                     
                     <div class="text-center skills-card">
-                        <div class="frontend ski">
+                        <div class="frontend ski" data-aos="fade-right">
                             <h4>Frontend Web Technologies:</h4>
                             <img src="./images/skills/html.png" alt="" class="skill-img">
                             <img src="./images/skills/css.png" alt=""    class="skill-img">
@@ -157,17 +161,17 @@
                             <img src="./images/skills/js.png" alt="" class="skill-img">
                             <img src="./images/skills/bootstrap.png" alt="" class="skill-img">
                         </div>
-                        <div class="backend ski">
+                        <div class="backend ski" data-aos="fade-right">
                             <h4>Backend Web Technologies:</h4>
                             <img src="./images/skills/django.png" alt="" class="skill-img">
                             <img src="./images/skills/node.png" alt="" class="skill-img">
                         </div>
-                        <div class="database ski">
+                        <div class="database ski" data-aos="fade-right">
                             <h4>Databases:</h4>
                             <img src="./images/skills/mongo.png" alt="" class="skill-img">
                             <img src="./images/skills/mysql.png" alt="" class="skill-img">
                         </div>
-                        <div class="program ski">
+                        <div class="program ski" data-aos="fade-right">
                             <h4>Programming Languages:</h4>
                             <img src="./images/skills/c.png" alt="" class="skill-img">
                             <img src="./images/skills/java.png" alt="" class="skill-img">
@@ -252,14 +256,14 @@
                 </div>
               </section>
 
-            <div class="card bg-dark text-white content get-card my-5">
+            <div class="card bg-dark text-white content get-card my-5" >
                 <div class="card-body p-5">
                     <div class="text-center mb-3" id="contact">
                         <h1>Get In Touch</h1>
                         <p class="lead">I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Feel free to reach out!</p>
                     </div>
                     
-                   <div class="row g-4">
+                   <div class="row g-4" data-aos="fade-down">
                     <div class="col-md-6">
                         <form action="" method="get">
                             <input type="text" class="form-control mb-2" placeholder="Name">
@@ -273,8 +277,8 @@
                         <p class="mb-1"><i class="bi bi-geo-alt-fill fs-2"></i> Near Shiv Mandir , Jajpur Road , Odisha - 755019</p>
                         <p class="mb-1"><i class="bi bi-phone-fill fs-2"></i> +91-7681049286</p>
                         <p class="mb-1"><i class="bi bi-envelope fs-2"></i> manoharss0407@gmail.com</p>
-                        <p class="mb-1"><i class="bi bi-linkedin fs-2"></i> https://www.linkedin.com/in/sreedharam-manohar-9bb893234/</p>
-                        <p class="mb-1"><i class="bi bi-github fs-2"></i> https://github.com/HIITSMANU</p>
+                        <p class="mb-1"><i class="bi bi-linkedin fs-2"></i> <a style="color: white;text-decoration: none;" href="https://www.linkedin.com/in/sreedharam-manohar-9bb893234/">Manohar_Linkedin</a></p>
+                        <p class="mb-1"><i class="bi bi-github fs-2"></i><a style="color: white;text-decoration: none;" href="https://github.com/HIITSMANU"> Manohar_GitHub</a></p>
                     </div>
                    </div>
                 </div>
@@ -298,6 +302,13 @@
     <script>
         const currentYear = new Date().getFullYear();
         document.getElementById('year').textContent = currentYear;
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration:1200,
+        });
+        AOS.refresh();
     </script>
 </body>
 </html>

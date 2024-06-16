@@ -52,7 +52,7 @@
 .live button{
     padding: 10px;
     border-radius: 10px;
-    background-color: black;
+    background-color: rgb(50, 50, 50);
     margin: 3px;
 }
 
@@ -67,6 +67,12 @@
     overflow: hidden;
 }
 
+.projects .card a{
+    text-decoration: none;
+    color: #000;
+    margin: 5px;
+}
+
 .product_image{
     height: 180px;
 }
@@ -77,11 +83,16 @@
 }
 
 .project_title{
-    background-color: #000;
+    background-color: #2b2a2a;
     padding: 10px;
     color: #fff;
     width: 200px;
     margin: auto;
+    border-radius: 10px;
+}
+
+.proti{
+    margin-top: -40px;
 }
 
 .product_image:hover{
@@ -158,6 +169,7 @@
 .black{
     background-color: black;
     width: 100% !important;
+    height: 100%;
 }
 .white{
     color: black;
@@ -182,3 +194,8 @@
         transform: translateY(20px);
     }
 }
+
+
+
+
+

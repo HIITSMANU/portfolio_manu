@@ -42,3 +42,5 @@ function toggleTheme() {
 }
 
 document.getElementById('themeToggleBtn').addEventListener('click', toggleTheme);
+
+

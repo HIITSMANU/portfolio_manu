@@ -64,13 +64,13 @@ for(let i=0; i<=projects.length-1; i++){
 document.getElementById("projects").innerHTML = project_html;
 
 function card(project){
-    let cards = `<div class="col-lg-4">
-    <div class="card mb-3" style="height:100%">
+    let cards = `<div class="col-lg-4" style="padding:10px;">
+    <div class="card mb-3" style="height:100%" data-aos="flip-right">
       <div class="product_image">
         <img class="img-fluid" src="${project.img_url}" alt="${project.title}">
       </div>
       <div class="card-body">
-        <div class="card-title text-center">
+        <div class="card-title text-center proti">
           <h5 class="project_title">${project.title}</h5>
         </div>
         <p class="card-text">
@@ -79,10 +79,8 @@ function card(project){
         <i class="fas fa-cog"></i> <i>${project.tools}</i>
         <br />
         <br />
-       <div class="live">
-        <button><a href="${project.source}"><i class="fa-solid fa-link"></i>Source code</a></button>
-        <button><a href="${project.live}"><i class="fa-solid fa-eye"></i>Live preview</a></button>
-       </div> 
+       <i class="fa fa-link" aria-hidden="true"></i> <i><a href="${project.source} style="text-decoration:none;">Source Code</a> </i>
+       <i class="fa fa-eye" aria-hidden="true"></i> <i><a href="${project.live} style="text-decoration:none;">Live</a> </i>
         <br />
       </div>
     </div>
