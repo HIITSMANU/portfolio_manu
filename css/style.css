@@ -35,6 +35,11 @@
     border: 2px solid black;
 }
 
+.ski:hover{
+    transform: scale(1.1);
+    transition: all 0.7s ease-in-out;
+}
+
 .projects{
     border: 2px solid rgb(164, 163, 163);
 }
@@ -44,8 +49,19 @@
     margin: 8px;
 }
 
+.live button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.live a{
+    text-decoration: none;
+    color: #fff;
+}
+
 .projects .card{
-    height: 450px;
+    height: 550px;
     text-align: justify;
     overflow: hidden;
 }

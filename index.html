@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MANOHAR</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
@@ -22,19 +23,19 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#aboutme">About Me</a>
+              <a class="nav-link" href="#about_me">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#skill">Skill</a>
+                <a class="nav-link" href="#academics" >Education</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skill" >Skill</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#education">Education</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#project">Project</a>
+              <a class="nav-link" href="#project" >Project</a>
             </li>
             <li class="nav-item">
                 <label class="form-check-label" for="flexSwitchCheckChecked"><i class="bi bi-moon"></i></label>
@@ -52,38 +53,44 @@
                 </div>
                 <div class="col-md-8 d-flex text-center justify-content-center align-items-center">
                     <div class="right" style="margin-left: 30%; margin-top: 10%;">
-                        <button style="padding: 10px; border-radius: 10px;">Hello There</button>
+                        <button style="padding: 10px; border-radius: 10px;">Hello There <img src="./images/hand.svg" alt=""></button>
                         <br>
                         <h1>I AM S.MANOHAR</h1>
                         <h2 class="animated-text">A FRONTEND DEVELOPER</h2>
                         <button style="padding: 10px; border-radius: 10px;">
-                            <a style="text-decoration: none; color: black;" href="./images/S_Manohar_Resume.pdf" download>Download Resume</a>
+                            <a style="text-decoration: none; color: black;" href="./images/S_Manohar_Resume.pdf" download><i class="fa-solid fa-download"></i> Download Resume</a>
                         </button>
+                        <button style="padding: 10px; border-radius: 10px;"><a style="text-decoration: none; color: black;" href="#contact"><i class="fa-solid fa-user-tie"></i> Hire me</a></button>
                     </div>
                 </div>
             </div>
+
+            <br>
+            <br>
             
-            <div class="about my-5" data-aos="fade-up">
-                <h1 style="text-align: center;">ABOUT ME</h1>
+            <div class="about my-5" id="about_me">
+                <br>
+                <br>
+                <h1  style="text-align: center;">About Me</h1>
                 <div class="row">
                   <div class="col-md-6">
                     <div class="row">
                       <div class="col-md-4">
-                        <img src="./images/WhatsApp Image 2024-06-15 at 23.56.15_db6f85fd.jpg" class="img-fluid my-image" id="second-image" alt="Surajit Das">
+                        <img src="./images/WhatsApp Image 2024-06-15 at 23.56.15_db6f85fd.jpg" class="img-fluid my-image" id="second-image">
                       </div>
                       <div class="col-md-8 ">
-                        <p><i class="fas fa-user"></i>S.MANOHAR</p>
-                        <p><i class="fas fa-user-tie"></i>Web Developer</p>
-                        <p><i class="fas fa-at"></i>manoharss0407@gmail.com</p>
+                        <p><i class="fas fa-user"></i> S.MANOHAR</p>
+                        <p><i class="fas fa-user-tie"></i> Web Developer</p>
+                        <p><i class="fas fa-at"></i> manoharss0407@gmail.com</p>
                         <p><i class="fab fa-linkedin"></i> </i> <a href="https://www.linkedin.com/in/sreedharam-manohar-9bb893234/"
-                            target="_blank">manohar_linkedin</a></p>
+                            target="_blank"> manohar_linkedin</a></p>
                         <p><i class="fab fa-github"></i> <a href="https://github.com/HIITSMANU"
-                            target="_blank">manohar_github</a></p>
+                            target="_blank"> manohar_github</a></p>
                       </div>
                     </div>
                   </div>
                   <div class="col-md-6">
-                    <h3 class="h3 heading">About Me</h3>
+                    <h3 class="h3 heading">Introduction:</h3>
                     <p class="lead mt-2 about-me">
                         Dynamic and passionate full-stack developer . I bring a unique perspective to the development process. Highly enthusiastic about learning new technologies and committed to creating seamless, user-friendly applications. Specializing in frontend development with a mere foundation in backend technologies, I am dedicated to contributing to team success through innovation, attention to detail, and exceptional organizational skills. Motivated to grow and excel in the ever-evolving tech landscape.
                     </p>
@@ -91,7 +98,7 @@
                 </div>
             </div>
 
-            <div class="card bg-dark text-white content aca-card my-5">
+            <div class="card bg-dark text-white content aca-card my-5" id="academics">
                 <div class="card-body p-5">
                     <div class="text-center mb-3">
                         <h1>Academic Records</h1>
@@ -134,7 +141,7 @@
             </div>
 
 
-            <div class="card bg-dark text-white content skill-card my-5">
+            <div class="card bg-dark text-white content skill-card my-5" id="skill">
                 <div class="card-body p-5">
                     <div class="text-center mb-3">
                         <h1>My Skills</h1>
@@ -236,8 +243,9 @@
                         <p class="lead">Some of the projects designed and developed by me.</p>
                       </div>
                     </div>
-            
+                    
                     <div class="row" id="projects">
+                        
                       
                     </div>
                   </div>
@@ -278,6 +286,7 @@
         </div>
 
         <footer class="p-3 text-center">
+            <p style="font-weight: 600; font-size: 1.2rem;">Developed and Maintained By S.Manohar</p>
             &copy; <span id="year"></span> | Manohar
         </footer>
     
